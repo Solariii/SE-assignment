@@ -1,0 +1,89 @@
+    <!DOCTYPE html>
+    <html>
+    <head><link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    </head>
+    <body>
+    
+    		
+            <div class="container">
+     <h2 >BOOK Information</h2>
+     <br>
+  <div class="col-md-12">
+
+    <div class="col-md-6">
+  
+
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-primary" for="Book">Book Title</label>
+      <div class="col-md-9">
+        <input type="text" class="form-control" id="Book" placeholder="Enter book-title" name="Book">
+      </div>
+    </div>
+<br>
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-primary" for="book-subtitle">Book-subtitle</label>
+      <div class="col-md-9">          
+        <input type="text" class="form-control wow fadeInRight" id="book-subtitle" placeholder="Enter book-subtitle" name="book-subtitle" >
+      </div>
+    </div>
+<br>
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-primary" for="author-name">Author Name</label>
+      <div class="col-md-9">          
+        <input type="text" class="form-control" id="author-name" placeholder="Enter author-name" name="author-name">
+      </div>
+    </div>
+<br>
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-primary" for="color">Background-Color</label>
+      <div class="col-md-9">          
+        <input type="text" class="form-control" id="color" placeholder="Enter background-color" name="color">
+      </div>
+    </div>
+<br>
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-primary" for="publishers">Publisher</label>
+      <div class="col-md-9">          
+        <input type="text" class="form-control" id="publishers" placeholder="Enter publisher" name="publishers" >
+      </div>
+    </div>
+<br>
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-primary" for="publishing-year" required>Publishing Year</label>
+      <div class="col-md-9">          
+        <input type="text" class="form-control" id="publishing-year" placeholder="Enter publishing-year" name="publishing-year" >
+      </div>
+    </div>
+<br>
+<br>
+    <div class="form-group">        
+      <div class="col-md-offset-2 col-md-10">
+        <button type="submit" class="btn btn-info" onclick="eslam()" >Generate</button>
+      </div>
+    </div>
+    
+
+  </div>
+
+  
+  <div id="eslam_cover" class="col-md-6 ">
+     <p id="booktitle">Book Title</p>
+     <p id="subtitle">Subtitle</p>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <p id="author">Author Name</p>
+     <p id="publisher">Publisher</p>  
+     <p id="year">Publishing Year</p>
+  </div>
+</div>
+
+</div>
+ 		
+        <script src="js/eslam.js"></script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+#eslam_cover
+{
+	width:500px;
+	height: 300px;
+	border: solid black 2px;
+}
+#booktitle
+{
+    letter-spacing: 10px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 32px;
+	font-weight: bold;	
+}
+#subtitle
+{
+	letter-spacing: 10px;
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	font-weight: normal;	
+}
+#author
+{
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	font-weight: normal;	
+}
+#publisher
+{
+	text-align: center;
+	font-family: arial;
+	font-weight: normal;	
+}
+#year
+{
+	text-align: center;
+	font-family: arial;
+	font-weight: normal;	
+}
